@@ -1,11 +1,13 @@
 import ChatBox from '../components/ChatBox';
+import logo from '../assets/logo.png';
 
 const Home = () => {
     return (
         <div className="home-container">
             <header className="app-header">
                 <div className="header-logo">
-                    <h1>AI Email Draft Assistant</h1>
+                    <img src={logo} alt="SmartCompose AI Logo" className="logo-img" />
+                    <h1>SmartCompose AI</h1>
                 </div>
                 <p className="header-subtitle">Your intelligent companion for professional communication</p>
             </header>
