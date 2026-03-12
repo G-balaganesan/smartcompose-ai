@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+backend/.env
+
+# Logs and test outputs
+*.log
+backend/*.log
+backend/test-out*.json
+error.log
+test-out*.json
+node_modules/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
